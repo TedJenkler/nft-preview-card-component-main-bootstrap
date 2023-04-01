@@ -1,0 +1,159 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+}
+
+#row1 {
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+#row2 {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+#Card {
+    background-color: hsl(216, 50%, 16%);
+    height: 70%;
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 1em;
+}
+
+#ETH {
+    margin-top: 1em;
+    width: 100%;
+    height: 50%;
+    border-radius: 1em;
+}
+
+#ETH:hover {
+    opacity: 40%;
+}
+
+#h1-title {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+#h1-title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+#p-description {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+#wallet {
+    color: green;
+    font-size: 1.25em;
+    color:hsl(178, 100%, 50%);
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.25em;
+}
+
+#foot {
+    height: 10%;
+}
+
+#profile {
+    margin: 1em;
+    height: 60%;
+    display: inline;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#text-footer{
+    display: inline;
+    width: 50%;
+    color: white;
+}
+
+#text-footer-creation {
+    color:hsl(215, 51%, 70%) ;
+}
+
+#text-footer:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+i {
+    margin-right: 0.5em;
+}
+
+#etherium {
+   color: hsl(178, 100%, 50%);
+}
+
+  @media (max-width: 800px) {
+
+    #Card {
+        height: 90%;
+        width: 50%;
+        text-align: center;
+    }
+    
+    #ETH {
+        width: 100%;
+        height: 50%;
+    }
+    
+      }
+
+      @media (max-width: 400px) {
+
+        #Card {
+            width: 80%;
+            height: 75%;
+            padding: 1em;
+        }
+        
+        #ETH {
+            width: 100%;
+            height: 50%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #h1-title {
+            font-size: 1em;
+            margin-top: 2em;
+        }
+        
+        #p-description {
+            font-size: 0.75em;
+            margin-top: 2em;
+        }
+        
+        #wallet {
+            margin-top: 1em;
+            font-size: 0.75em; 
+        }
+        
+        #time {
+            margin-top: 1em;
+            font-size: 0.75em;
+        }
+
+        #foot {
+            margin-top: 1em;
+        }
+        
+        
+          }
+  
